@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+ :root {
+      --primary-color: #3366cc;
+      --secondary-color: #ff9900;
+    }
+    body {
+      font-family: Arial, sans-serif; /* custom body font */
+    }
+     .container {
+      width: 500px;
+      height: 300px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    h1 {
+      color: #ff9900;
+      font-size:28px;
+      text-align: center;
+    }
+    li{
+     /* Unordered List Styles */
+    }
+    ul li:first-child {
+      font-weight: bold;
+    }
+    /* Image Styles */
+    img {
+      width: 200px;
+      height: 150px;
+    }
+    /* Table Styles */
+    table
+    {
+      width: 100%;
+      background-color: #f9f9f9;
+      border-collapse: collapse;
+    }
+    table th,
+    table td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+
+    table tr:hover {
+      background-color: #e5e5e5;
+    }
+    table th {
+      background-color: #ff9900;
+      color: white;
+    }
+
+    /* Select and Style Specific Table Cells */
+    table tr td:first-child {
+      background-color: #f2f2f2;
+    }
+    table tr:last-child td {
+      background-color: #e5e5e5;
+    }
+    /* Link Styles */
+    a:hover {
+      color: #ff9900;
+    }
+    a:active {
+      color: #3366cc;
+    }
+    /* Pseudo-element Styles */
+    .container::before {
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-color: #ff9900;
+      margin-bottom: 10px;
+    }
